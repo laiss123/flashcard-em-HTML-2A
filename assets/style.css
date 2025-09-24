@@ -1,9 +1,35 @@
 body { 
+  -- text color: ;#DBE4EF
+  --card-front-color :#144480
+  --card-back-color: #00F4BF;
     background-color:
     bisque;font-family: bai jamjuree; }
- #container{display: flex; }
+ #container{display: flex; 
+}
   .cartao{ margin: 1rem 1rem ; 
     background-color: aqua; height: 20rem; 
     flex- grow:1; flex-basics: calc(33%-6rem); } .cartao__conteudo
-    { text-align:center; height:100%; 
+    { text-align:center; height:100%;
+
+    }
+    .cartao__conteudo_PERGUNTA P{ 
+      color:var(- - text - color) ;
+      font-wight:500;
+    }
+    .cartao__conteudo_resposta__p{ 
+      color:var(--card-back-color);
+      font-weight: 700;
+    }
+    .cartao__conteudo{
+      transform:rotate(180deg);
+    }
+    .cartao__conteudo_pergunta,
+    .cartao__conteudo_resposta{
+      back-face- visibility:hidden ;
+      position:absolute;
+      height: 100%;
+      widht:100%
+    }
+    .cartao__conteudo_resposta{
+      transform: rotateY(180deg);
     }
