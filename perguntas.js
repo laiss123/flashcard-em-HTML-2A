@@ -9,7 +9,13 @@ criacartao)
 'a capital da frança é paris'
 )
 
-criacartao)
+criacartao(
 'programação',
 'o que é uma função'
 'uma função é um bloco de código que executa alguma tarefa'
+)
+criaCartao(
+    'Lingua Inlglesa',
+    'Como se diz Oi em ingles?',
+    'Oi em ingles é Hi (RAI)'
+)
