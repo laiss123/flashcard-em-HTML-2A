@@ -1,24 +1,23 @@
-criacartao(
-    'Programação', 
-    'O que é Python?', 
-    'O Python é uma linguagem de programação.'
-);
+criaCartao(
+    'Programação',
+    'O que é Python?',
+    'O Python é uma linguagem de programação'
+)
 
-criacartao(
-    'Geografia', 
-    'Qual a capital da França?', 
-    'A capital da França é Paris.'
-);
+criaCartao(
+    'Geografia',
+    'Qual a capital da França?',
+    'A capital da França é Paris'
+)
 
-criacartao(
-    'Programação', 
-    'O que é uma função?', 
-    'Uma função é um bloco de código que executa alguma tarefa.'
-);
+criaCartao(
+    'Programação',
+    'O que é uma função?',
+    'Uma função é um bloco de código que executa alguma tarefa'
+)
 
-criacartao(
-    'Língua Inglesa', 
-    'Como se diz "Oi" em inglês?', 
-    '"Oi" em inglês é "Hi" (RAI).'
-);
-
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz oi em Inglês?',
+    'Oi em ingles é HI (RAI)'
+)
